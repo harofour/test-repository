@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnTest.setOnClickListener {
             Log.e("TIL", "${shouldShowRequestPermissionRationale(Manifest.permission.POST_NOTIFICATIONS)}")
+            Log.e("TIL", "${shouldShowRequestPermissionRationale(Manifest.permission.POST_NOTIFICATIONS)}")
+            Log.e("TIL", "${shouldShowRequestPermissionRationale(Manifest.permission.POST_NOTIFICATIONS)}")
             requestPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
         }
     }
